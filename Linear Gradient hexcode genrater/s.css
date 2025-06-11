@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d71,
+        #00bf72,
+        #a8eb12
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+}
+button {
+border: none;
+border-radius: 20px;
+padding: 12px 30px;
+margin: 10px;
+}
+#mybutton {
+    color: white;
+    background-color: #021c29b7;
+
+}
+#mybutton2 {
+    background-color: rgb(168, 235, 18);
+    box-shadow: 10px 10px 14px 1px rgba(00, 00, 00, 0.2);
+
+}
+.copycode {
+    color: white;
+    /* background-color: #9f89a5;  */
+ 
+    width: 400px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+section h2{
+    color: white;
+}
